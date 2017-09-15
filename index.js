@@ -18,6 +18,6 @@ app.use(function(req, res, next){
 app.use(router);
 
 
-app.listen(process.env.PORT || 3000, function(){
+app.listen( process.env.PORT||3000, function(){
     console.log("server start!");
 });
